@@ -16,8 +16,8 @@ Company.prototype.findSimilar = function() {
   return Company.findAll({
     where: {
       fractalIndex: {
-        [Op.gte]: this.fractalIndex - similarDelta,
-        [Op.lte]: this.fractalIndex + similarDelta
+        [Op.gt]: this.fractalIndex - similarDelta,
+        [Op.lt]: this.fractalIndex + similarDelta
       }
     }
   })

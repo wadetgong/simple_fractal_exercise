@@ -9,7 +9,7 @@ describe('Company model', () => {
 
   describe('findSimilar', function() {
     it('returns the correct companies', (done) => {
-      const company1 = Company.create({ fractalIndex: 0.14 })
+      const company1 = Company.create({ fractalIndex: 0.15 })
       const company2 = Company.create({ fractalIndex: 0.29 })
       const company3 = Company.create({ fractalIndex: 0.35 })
       const company4 = Company.create({ fractalIndex: 0.43 })

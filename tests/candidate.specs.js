@@ -8,7 +8,7 @@ describe('Candidate model', () => {
   })
   describe('getPercentiles', () => {
     it('returns the correct percentiles', (done) => {
-      const company1 = Company.create({ fractalIndex: 0.14 })
+      const company1 = Company.create({ fractalIndex: 0.15 })
       const company2 = Company.create({ fractalIndex: 0.29 })
       const company3 = Company.create({ fractalIndex: 0.50 })
       const candidate1 = Candidate.create({
