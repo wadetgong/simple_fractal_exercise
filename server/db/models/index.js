@@ -1,5 +1,5 @@
-const Company = require('./Company')
-const Candidate = require('./Candidate')
+const Candidate = require('./candidate')
+const Company = require('./company')
 
 Candidate.belongsTo(Company)
 Company.hasMany(Candidate)
