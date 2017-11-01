@@ -1,0 +1,41 @@
+@font-face {
+  font-family: 'Ubuntu Light';
+  src: url("https://s3.amazonaws.com/simplefractal.com/fonts/Ubuntu-L.ttf") format("truetype");
+}
+
+body {
+  font-family: Ubuntu Light, Verdana, Helvetica Neue, Helvetica, Roboto, Arial, sans-serif;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+
+.navbar {
+  background-color: #346699;
+  color: white;
+}
+
+.percentile-score-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.percentile-score-wrapper {
+  height: 250px;
+  width: 250px;
+  border: 1px solid #346699;
+  background-color: #bfcfea;
+  border-radius: 1em;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.percentile-score {
+  font-size: 5em;
+}
+
+.btn-primary {
+  background-color: #346699;
+}
+
